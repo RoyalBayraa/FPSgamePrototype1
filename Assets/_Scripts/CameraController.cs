@@ -11,8 +11,15 @@ public class CameraController : MonoBehaviour
 
     private float _pitch;
 
+    InputSystem_Actions input;
+
     float customRate = 0.6f; // 10 times per second
     float timer = 0f;
+
+    private void Awake()
+    {
+
+    }
 
     private void Start()
     {
